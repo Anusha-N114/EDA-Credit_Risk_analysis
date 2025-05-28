@@ -1,1 +1,43 @@
+## 📊 Dataset Description
+
+This project uses data from the **[Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk/data)** competition hosted on Kaggle.
+
+The dataset helps predict a client’s ability to repay a loan by analyzing historical data and previous application records. The key files used in this project are:
+
+### 🔹 application_data.csv
+- Refers to `application_train.csv` in the original dataset.
+- Contains information about clients at the time of loan application.
+- Includes demographic, financial, and employment-related details.
+- The target variable is `TARGET` (1 = client defaulted, 0 = client repaid).
+
+### 🔹 previous_application.csv
+- Contains records of clients’ past loan applications (approved, refused, or canceled).
+- Useful for understanding client behavior and risk patterns over time.
+
+### 🔹 columns_description.csv
+- Provides detailed descriptions of all variables in the dataset.
+- Essential for understanding the meaning and context of each feature.
+
+---
+
+## 📥 How to Access the Data
+
+Due to file size and licensing restrictions, the datasets are not stored in this repository.
+
+To download them:
+
+1. Create a free Kaggle account at [https://www.kaggle.com](https://www.kaggle.com).
+2. Visit the [Home Credit Default Risk Dataset Page](https://www.kaggle.com/competitions/home-credit-default-risk/data).
+3. Accept the competition rules if prompted.
+4. Download the following files:
+   - `application_train.csv`
+   - `previous_application.csv`
+   - `columns_description.csv`
+
+After downloading, place them in your project's `data/` folder (or create one).
+
+---
+
+## 📂 Suggested Folder Structure
+
 
